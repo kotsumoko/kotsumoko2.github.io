@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<spript src ="webspeech.js"></spript>
+<html lang="ja">
+    <meta charset="utf-8">
+<div style="border:1px solid #000;">
+  <div id="result_text"></div>
+  <form name="googleform" target="newtab" action="http://www.google.co.jp/search" method="GET" style="display:none;">
+    <input type="hidden" name="hl" value="ja">
+    <input type="hidden" name="q" id="search_param" maxLength="255" size="30">
+  </form>
+  <input type="submit" id="start_recognition" value="音声入力でGoogle検索開始！" style="color:#000; background-color:#ff9b00cf;">
+</div>
+<br>
+<div id="status">
+status: stop
+</div>
+</html>
