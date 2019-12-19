@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>夏休みの思い出</title>
+    <p>大好きな韓国のアイドルを一年ぶりに見てきました、またゼミ合宿で初めて長野に行きました</p>
+    
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+$(function(){
+  $("#img").click(function(){
+    $(this).attr('src', 'images/exosc.jpeg');
+  },
+  function(){
+    $(this).attr('src', 'images/nagano.jpeg');
+  });
+    $("#img").width(1000).height(800);
+});
+</script>
+</head>
+<body>
+  <img src="images/exosc.jpeg" id="img">
+</body>
+</html>
+
